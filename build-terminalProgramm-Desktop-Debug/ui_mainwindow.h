@@ -79,6 +79,13 @@ public:
         font1.setPointSize(20);
         pushButton_3->setFont(font1);
         MainWindow->setCentralWidget(centralWidget);
+        label_4->raise();
+        label_5->raise();
+        label_6->raise();
+        listWidget->raise();
+        pushButton_2->raise();
+        pushButton_3->raise();
+        pushButton->raise();
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 594, 22));
