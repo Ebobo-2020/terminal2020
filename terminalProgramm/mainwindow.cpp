@@ -37,7 +37,7 @@ MainWindow::MainWindow(QWidget *parent) :
                               ui->listWidget->addItem("lox");
                                ui->listWidget->addItem("lox");
                                 ui->listWidget->addItem("lox");
-                                 ui->listWidget->addItem("lox");
+                                 ui->listWidget->addItem("lox[");
                                   ui->listWidget->addItem("lox");
 }
 
