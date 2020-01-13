@@ -52,9 +52,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    if (a > 0){
-        --a;
-    ui->listWidget->item(a)->setSelected(true);
+    if (ui->listWidget->currentRow()-1 >= 0){
+
+  ui->listWidget->setCurrentRow( ui->listWidget->currentRow()-1);
     }
 }
 
@@ -65,9 +65,9 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    if (a < ui->listWidget -> count() - 1){
-        ++a;
-    ui->listWidget->item(a)->setSelected(true);
+    if (ui->listWidget->currentRow()+1 <= ui->listWidget -> count() - 1){
+
+    ui->listWidget->setCurrentRow( ui->listWidget->currentRow()+1);
 
     }
 }
