@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-01-13T13:26:13
+# Project created by QtCreator 2020-01-14T13:04:51
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = terminalProgramm
+TARGET = otlicno
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,13 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-    glavwindows.cpp \
-    mainwindow2.cpp
+        mainwindow.cpp \
+    windows2.cpp
 
 HEADERS += \
-        mainwindow2.h \
-    glavwindows.h
+        mainwindow.h \
+    windows2.h
 
 FORMS += \
-        mainwindow2.ui \
-    glavwindows.ui
+        mainwindow.ui \
+    windows2.ui
